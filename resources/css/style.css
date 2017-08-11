@@ -5,13 +5,111 @@ body, html {
 }
 
 /* containter styles */
-
-/* nav styles */
+.container {
+	max-width: 960px;
+	padding: 2rem 1rem;
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+}
 
 /* banner styles */
+.banner {
+	background-image: url("../img/glasses-bg.png"); 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 25em;
+}
+
+/* corporate section */
+.corporate {
+	padding: 1rem 0 1rem 0;
+	background-color: cadetblue;
+	width: 100%;
+	color: white;
+}
+
+.corporate img {
+	height: 1.5rem;
+	margin-right: 1rem;
+	margin-left: 2rem;
+}
+
+/* nav styles */
+nav {
+	float: right;
+}
+
+nav span {
+	margin-right: 2rem;
+}
+
+.headline {
+	float: right;
+	padding: 1.5rem 5rem;
+	max-width: 60%;
+	font-weight: bold;
+	font-size: 2rem;
+	line-height: 1.2;
+	background-color: white;
+}
+
 
 /* services styles */
+.services {
+	display: flex;
+	flex-direction: row;
+	margin-top: 3rem;
+	margin: 0 auto;
+}
+
+.service {
+	margin-right: 6rem;
+	text-align: center;
+	height: 8rem;
+	width: 5rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.exams img {
+	width: 3.5rem;
+}
+
+.fittings img {
+	width: 5rem;
+}
+
+.delivery img {
+	width: 5rem;
+}
 
 /* information styles */
+.company-information {
+	margin-top: 3rem;
+	width: 100%;
+	display: flex;
+}
+
+.company-info {
+	width: 35%;
+	margin-right: 5%;
+}
+
+.info-title {
+	font-weight: bold;
+	font-size: 1rem;
+	color: white;
+	background-color: cadetblue;
+	padding: 1.25rem 0.5rem;
+}
 
 /* footer styles */
+footer {
+	padding: 4rem 4rem;
+	background-color: azure;
+	max-width: 960px;
+	margin: 0 auto;
+	display: flex;
+}
