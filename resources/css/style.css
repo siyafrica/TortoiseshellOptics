@@ -45,8 +45,12 @@ nav span {
 	margin-right: 2rem;
 }
 
+.headline-container {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
 .headline {
-	float: right;
 	padding: 1.5rem 5rem;
 	max-width: 60%;
 	font-weight: bold;
@@ -55,6 +59,44 @@ nav span {
 	background-color: white;
 }
 
+/* 768 breakpoint styles for banner section */
+@media only screen and (max-width: 768px) {
+		.container {
+			max-width: 100%;
+			display: flex;
+			align-items: center;
+			margin: 0 auto;
+		}
+
+		.banner {
+			height: 22rem;
+		}
+
+		.corporate {
+			padding: 1rem 0 1rem 0;
+			background-color: cadetblue;
+			width: 100%;
+			color: white;
+		}
+
+		.headline-container {
+			margin: 5rem 2rem 0 0;
+		}
+
+		.headline {
+			padding: 0.75rem 4rem;
+			max-width: 60%;
+			font-weight: bold;
+			font-size: 1.33rem;
+			line-height: 1.2;
+			background-color: white;
+		}
+}
+
+/* 480 breakpoint styles for banner section */
+@media only screen and (min-width: 480px) {
+
+}
 
 /* services styles */
 .services {
@@ -85,6 +127,18 @@ nav span {
 	width: 5rem;
 }
 
+/* 768 breakpoint styles for services section */
+@media only screen and (max-width: 768px) {
+		.services {
+			padding-top: 3rem;
+		}
+}
+
+/* 480 breakpoint styles for services section */
+@media only screen and (min-width: 480px) {
+	
+}
+
 /* information styles */
 .company-information {
 	margin-top: 3rem;
@@ -105,6 +159,23 @@ nav span {
 	padding: 1.25rem 0.5rem;
 }
 
+.company-info p {
+	margin-top: 1rem;
+}
+
+/* 768 breakpoint styles for infomation section */
+@media only screen and (max-width: 768px) {
+		.company-information {
+			margin-top: 3rem;
+			margin-left: 20%;
+		}
+}
+
+/* 480 breakpoint styles for information section */
+@media only screen and (min-width: 480px) {
+	
+}
+
 /* footer styles */
 footer {
 	padding: 4rem 4rem;
@@ -112,4 +183,9 @@ footer {
 	max-width: 960px;
 	margin: 0 auto;
 	display: flex;
+}
+
+/* 480 breakpoint styles for footer section */
+@media only screen and (min-width: 480px) {
+	
 }
